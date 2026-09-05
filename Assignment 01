@@ -1,1 +1,46 @@
+# Creating a list
+A = ['Orange','Apple','Banana','Kiwi']
+print(A)
+# Adding an element in list
+A = ['Orange','Apple','Banana','Kiwi']
+A.append('Mango')
+print(A)
+# Removing an element from list
+A = ['Orange','Apple','Banana','Kiwi']
+A.remove('Apple')
+print(A)
 
+# Creating a dictionary
+X = {'Name':'Pranav',
+     'Course':'CSE',
+     'College':'MIT WPU'}
+print(X)
+# To return list of all keys in dictionary
+X = {'Name':'Pranav',
+     'Course':'CSE',
+     'College':'MIT WPU'}
+X.keys()
+print(X)
+# To update the dictionary
+X = {'Name':'Pranav',
+     'Course':'CSE',
+     'College':'MIT WPU'}
+X.update({'Area':'Kothrud'})
+print(X)
+
+
+# Creating a Tuple
+Y = (10,20,30,40,50)
+print(Y)
+# To count no.of elements in Tuple
+Y = (10,20,30,40,50)
+Z = len(Y)
+print(Z)
+# To return smallest value in Tuple
+Y = (10,20,30,40,50)
+K = min(Y)
+print(K)
+# To return largest value in Tuple
+Y = (10,20,30,40,50)
+L = max(Y)
+print(L)
