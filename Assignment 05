@@ -1,0 +1,11 @@
+def X_function():
+    txt = "xyz123"
+    allowed = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+    if set(txt) <= set(allowed):
+        print("String contains only allowed characters")
+    else:
+        print("String contains invalid characters")
+
+
+X_function()
