@@ -1,0 +1,6 @@
+import numpy as np
+X = [[0,6,10],[2,4,6]]
+Y = [[4,5,6],[1,2,3]]
+A = np.array(X)
+B = np.array(Y)
+print(A+B)
